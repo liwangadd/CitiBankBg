@@ -1,0 +1,50 @@
+#sidebarContainer
+{
+    width: 175px;
+    margin: 0px;
+    float: left;
+}
+#listTitle
+{
+    background-image: url("../images/sidebarTitlebg.png");
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 175px;
+    margin: 0px;
+}
+ul#sidebarTitle
+{
+    padding-left: 0px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #2A324B;
+}
+.sidebarItem
+{
+    padding-top: 21px;
+    padding-left: 0px;
+    color: #43495D;
+}
+#listContent
+{
+    background-image: url("../images/sidebarbg.png");
+    background-repeat: no-repeat;
+    height: 358px;
+    width: 175px;
+    margin: 0px;
+}
+ul#sidebar
+{
+    padding-top: 20px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 1em;
+}
+.sidebarItem
+{
+    padding-top: 21px;
+    padding-left: 0px;
+    color: #43495D;
+}

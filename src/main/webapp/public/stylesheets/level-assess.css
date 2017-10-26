@@ -1,0 +1,318 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+#headerContainer
+{
+    	width: 100%;
+    	height: 45px;
+    	color: white;
+    	background-color: #2a324b;
+		text-align: center;
+		margin: 0px;
+		padding: 0px;
+		zoom: 1;
+}
+
+#header
+{
+	width: 820px;
+	height: 45px;
+	margin-left: auto;
+	margin-right: auto;;
+}
+
+#headTitle h1
+{
+	display: inline;
+}
+
+#headTitle
+{
+	display: inline;
+	height: 45px;
+}
+
+#exitButton
+{
+	color: #FFFFFF;
+	display: inline;
+	text-align: right;
+	height: 45px;
+	font-size: 20px;
+	line-height: 45px;
+	position: relative;
+	left: 200px;
+}
+
+#exitButton a
+{
+	color: #FFFFFF;
+	display: inline;
+}
+
+#mainContainer
+{
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 36px;
+	width: 820px;
+	height: 931px;
+}
+
+#main
+{
+	width: 820px;
+	height: 931px;
+	position: absolute;
+    	border:1px solid #cccccc;
+	position: absolute;
+	-moz-box-shadow: 1px 1px 5px #888888; /* 老的 Firefox */
+	box-shadow: 1px 1px 5px #888888;
+}
+
+#mainContent
+{
+	margin-right: 0px;
+	width: 620px;
+	background:#FFF;
+	height:926px;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: right;
+}
+
+.title
+{
+	font-size: 1.5em;
+	padding-top: 35px;
+	margin-left: 10px;
+}
+
+#navContent
+{
+	width: 160px;
+	height: 100%;
+	padding: 10px;
+	background-color: #A4B3E4;
+}
+
+#navTitle
+{
+	width: 160px;
+	height: 2.4em;
+	background-color: #FFFFFF;
+	text-align: center;
+	font-size: 1.2em;
+	line-height: 2.4em;
+	-moz-box-shadow: 1px 1px 5px #888888; /* 老的 Firefox */
+	box-shadow: 1px 1px 5px #888888;
+}
+
+#navList
+{
+	width: 160px;
+	height: 350px;
+	background-color: #FFFFFF;
+	margin-top: 20px;
+}
+
+ul
+{
+	list-style-type: none;
+	padding: 0px;
+}
+
+li
+{
+	text-align: center;
+	margin: 0px;
+	padding-top: 1.5em;
+}
+
+#searchForm
+{
+	padding-top: 10px;
+	display: inline-block;
+}
+
+#searchButton
+{
+	text-align: center;
+	vertical-align: -6%;
+	display: inline-block;
+	width: 57px;
+	height: 22px;
+	background-color: #A4B3E4;
+	border: 1px solid #A4B3E4;
+	border-radius: 5px;
+}
+
+#searchText
+{
+	overflow: hidden;
+	resize: none;
+	width: 161px;
+	height: 22px;
+	border: 1px solid #A4B3E4;
+	border-radius: 5px;
+	outline: none;
+	font-size: 1em;
+	margin-top: 0px;
+}
+
+#searchTitle
+{
+	position:absolute;
+	top:21px;
+	left:747px;
+	color: white;
+	font-size: 1em;
+}
+
+#textClear
+{
+	width: 13px;
+	height: 14px;
+	position: absolute;
+	left: 335px;
+	top: 16px;
+}
+
+#searchInput
+{
+	display: inline;
+	margin: 0px;
+}
+
+#selectForm p
+{
+	font-size: 1em;
+	display: inline;
+}
+
+#selectForm
+{
+	padding-top: 10px;
+	padding-left: 20px;
+	display: inline-block;
+}
+
+select
+{
+	height: 20px;
+	width: 150px;
+	display: inline-block;
+	border: 1px solid #A4B3E4;
+	border-radius: 5px;
+	outline: none;
+}
+
+#patchPanel
+{
+	border: 1px solid #A4B3E4;
+	border-radius: 3px;
+	margin-top: 20px;
+	width: 600px;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+}
+
+.selectItemGroup
+{
+	display: inline-block;
+	width: 580px;
+	vertical-align: top;
+}
+
+.selectItem
+{
+	margin-right: 10px;
+	display: inline-block;
+	width: 80px;
+	white-space: nowrap; 
+}
+
+.sizeSelect
+{
+	width: 60px;
+	height: 20px;
+	outline: none;
+	border: 1px solid #A4B3E4;
+	border-radius: 10px;
+	outline: none;
+    	text-align: center;
+}
+
+#patchConfirmButton
+{
+
+	border: 1px solid #A4B3E4;
+	border-radius: 10px;
+	background-color: #A4B3E4;
+	outline: none;
+	width: 40px;
+	text-align: center;
+	margin-left: 630px;
+}
+
+#TableList{
+	width:639px;
+	height:500px;
+	padding-top:15px;
+}
+
+table {
+	font-family: verdana,arial,sans-serif;
+	font-size:16px;
+	color:#333333;
+	border: 1px solid #A4B3E4;
+	border-collapse: collapse;
+	width: 600px;
+}
+
+th
+{
+	background-color: #A4B3E4;
+	border-right: 1px solid #FFFFFF;
+	padding: 8px;
+	text-align: center;
+}
+
+th.rightItem
+{
+	border-right: 1px solid #A4B3E4;
+}
+
+td.shortItem
+{
+	white-space: nowrap;
+}
+
+
+td {
+	padding: 8px;
+    	background-color: white;
+    	border: 1px solid #A4B3E4;
+	text-align: center;
+}
+
+#page
+{
+	text-align: center;
+	bottom: 100%;
+}
+
+p
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
